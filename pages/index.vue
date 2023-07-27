@@ -1,5 +1,6 @@
 <template>
-  <Tutorial/>
+  <!-- <Tutorial/> -->
+  <muyu/>
 </template>
 
 <script lang="ts">
