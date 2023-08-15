@@ -79,6 +79,7 @@ export default defineComponent({
 			tips.value = list.value[sel.value].tips
 		}
 		return {
+      imgActive,
 			showCover,
 			count,
 			tips,

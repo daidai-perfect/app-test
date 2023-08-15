@@ -15,7 +15,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { src: 'https://at.alicdn.com/t/c/font_4169223_23514r5y0cd.js?spm=a313x.7781069.1998910419.92&file=font_3580402_47tfjktpr4f.js' }
+      { src: 'https://at.alicdn.com/t/c/font_4169223_23514r5y0cd.js?spm=a313x.7781069.1998910419.92&file=font_3580402_47tfjktpr4f.js' },
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-26FCKG3V7P' },
     ]
   },
 
@@ -26,7 +27,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    '@/plugins/analytics'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
